@@ -1,0 +1,36 @@
+{
+    "name": "rocketmedia-cz/formerrorrenderer",
+    "type": "addon",
+    "description": "Visual component for displaying errors under input",
+    "keywords": ["errors", "input", "nette", "rocketmedia"],
+    "homepage": "https://github.com/Rocketmediacz/FormErrorRenderer",
+    "license": "Copyright 2014 David Zadrazil",
+    "minimum-stability": "dev",
+
+    "authors": [
+        {
+            "name": "David Zadrazil",
+            "homepage": "http://davidzadrazil.cz"
+        }
+    ],
+
+    "support": {
+        "email": "david@rocketmedia.cz",
+        "issues": "https://github.com/Rocketmediacz/FormErrorRenderer/issues"
+    },
+
+    "require": {
+        "php": ">=5.3.0",
+        "nette/nette": "~2.1.0"
+    },
+
+    "config": {
+        "vendor-dir": "libs"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "Scribe": ""
+        }
+    }
+}
