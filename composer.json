@@ -21,11 +21,7 @@
 
     "require": {
         "php": ">=5.3.0",
-        "nette/nette": "~2.1.0"
-    },
-
-    "config": {
-        "vendor-dir": "libs"
+        "nette/nette": "dev-master"
     },
 
     "autoload": {
